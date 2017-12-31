@@ -33,7 +33,7 @@ There are power ups in game.
 If player taps onf a color group which size is 5 some special item called "lineBomb-Horizontal" or "lineBomb-Vertical" booster is generated.
 Line Bomb clears whole row or column depending on its type.
 
-###### Radial Bomb
+##### Radial Bomb
 If the cleared group size is 6 than "Radial Bomb" booster is generated.
 Radial Bomb clears all it's neighbours.
 
@@ -49,5 +49,6 @@ There are some values that should be possible to configure in Unity Edtior befor
 1. Board row/column size. (min 7, max 10)
 2. Moves count.
 3. Objectives count (max 3) their colors and values. i.e. 10 red, 12 orange, 20 blue.
+4. Figures colors count. (min 4, max 7)
 
-
+![alt text](https://github.com/plexonic/Match3Test/blob/master/Resources/toy-blast_info.png)
