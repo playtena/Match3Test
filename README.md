@@ -11,7 +11,7 @@ Game should be implemented using Unity game engine.
 ### Game description.
 
 #### UI
-There are two screens in the game. Intro screen and gameplay screen
+There are two screens in the game. Intro screen and gameplay screen.
 On Intro screen there is a "Start" button on clicking which Gameplay screen is opened.
 On Gameplay screen game board is drawn with color figure items.
 
