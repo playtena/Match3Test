@@ -43,7 +43,7 @@ Boosters are activated when tapped.
 
 ### Visual requirements
 The only required visual effect is to implement figures dropping animation. All other graphical part can be kept maximal simple.
-##### Note: Implementation should not be based on any Physics.
+##### Note: Implementation should not be based on any 2D Physics.
 
 ### Game Configuration
 There are some values that should be possible to configure in Unity Edtior before starting the game.
