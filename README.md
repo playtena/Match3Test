@@ -3,6 +3,8 @@
 ## Project overview
 Implement collapse match 3 game. 
 Example: Homescapes, Garedenscapes in AppStore, PlayStore
+For general match 3 logic check PetSavers on Facebook, AppStore, PlayStore
+For dropping logic
 
 ### Objective
 Implement match3 game with basic gameplay functionality.
@@ -66,6 +68,12 @@ Boosters are activated when tapped.
 ### Visual requirements
 The only required visual effect is to implement figures dropping animation. All other graphical part can be kept maximal simple.
 ##### Note: Implementation should not be based on any 2D Physics.
+
+### Board generation
+Every board should have randomly geenerated three empty cells. That cells can't have figures on them. See preview.
+Dropping figures should also avoid empty cells. Dropping rules can be seen in any example game above.
+Or check the youtube link, https://youtu.be/LpD7Nh9cZbI?t=214
+
 
 ### Game Configuration
 There are some values that should be possible to configure in Unity Edtior before starting the game.
