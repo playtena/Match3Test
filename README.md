@@ -1,14 +1,15 @@
 # Match 3 game short description
 
 ## Project overview
-Implement collapse match 3 game. 
+Implement a match 3 game. 
+
 Example: Homescapes, Garedenscapes in AppStore, PlayStore
 For general match 3 logic check PetSavers on Facebook, AppStore, PlayStore
-For dropping logic
 
 ### Objective
 Implement match3 game with basic gameplay functionality.
 Game should be implemented using Unity game engine.
+Required assets can be found in this repo in "Assets" folder.
 
 ### Game description
 
@@ -18,11 +19,11 @@ On Intro screen there is a "Start" button on clicking which Gameplay screen is o
 On Gameplay screen game board is drawn with color figure items.
 
 #### Gameplay short description
-Gameplay is like any other match3 game and can be check in example game above.
-User can swap any item on board. If after swap, matches are found the matched items are cleared and items are dropping down. 
+Gameplay is like any other match3 game and can be check in example games above.
+User can swap any item on board. If after swap, matches are found the matched items are cleared and items are dropping down and new matches are searched.
 
 #### What is a match.
-Match is a line of same color figures.
+Match is a line of same color figures. 
 
 simple match
 ![alt text](https://github.com/plexonic/Match3Test/blob/master/Resources/simple_match.jpg)
@@ -60,7 +61,6 @@ If player match is square match than "Radial Bomb" booster is generated.
 
 Radial Bomb clears all it's neighbours.
 
-
 Boosters are activated when tapped.
 
  For more details check example games listed above.
@@ -73,7 +73,6 @@ The only required visual effect is to implement figures dropping animation. All 
 Every board should have randomly geenerated three empty cells. That cells can't have figures on them. See preview.
 Dropping figures should also avoid empty cells. Dropping rules can be seen in any example game above.
 Or check the youtube link, https://youtu.be/LpD7Nh9cZbI?t=214
-
 
 ### Game Configuration
 There are some values that should be possible to configure in Unity Edtior before starting the game.
