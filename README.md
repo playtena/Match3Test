@@ -44,13 +44,16 @@ When 'Play Again' button is pressed game is restarted.
 There are power ups in game.
 ##### Line Bomb
 If player match is 4 size or longer than horizontal or  vertical "Line Bomb" boosters are generated.
+
 ![alt text](https://github.com/plexonic/Match3Test/blob/master/Resources/horizontal_4_match.jpg)
+
 ![alt text](https://github.com/plexonic/Match3Test/blob/master/Resources/vertical_4_match.jpg)
 
 Line Bomb clears whole row or column depending on its type.
 
 ##### Radial Bomb
 If player match is square match than "Radial Bomb" booster is generated.
+
 ![alt text](https://github.com/plexonic/Match3Test/blob/master/Resources/square_match.jpg)
 
 Radial Bomb clears all it's neighbours.
