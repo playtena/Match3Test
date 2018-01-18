@@ -9,7 +9,6 @@ For general match 3 logic check PetSavers on Facebook, AppStore, PlayStore
 ### Objective
 Implement match3 game with basic gameplay functionality.
 Game should be implemented using Unity game engine.
-Required assets can be found in this repo in "Assets" folder.
 
 ### Game description
 
@@ -66,6 +65,7 @@ Boosters are activated when tapped.
 
 ### Visual requirements
 The only required visual effect is to implement figures dropping animation. All other graphical part can be kept maximal simple.
+Required assets can be found in this repo in "Assets" folder.
 ##### Note: Implementation should not be based on any 2D Physics.
 
 ### Board generation
