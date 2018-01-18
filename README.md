@@ -35,7 +35,7 @@ square match
 ![alt text](https://github.com/plexonic/Match3Test/blob/master/Resources/square_match_wo_bomb.jpg)
 
 Game has objective. That is to collect some ammount of color figures items. Ex, 10 red, 20 green.
-User has predefined moves count using which he has to fullfil the objective. Every successfull tap is counted as a move.
+User has predefined moves count using which he has to fullfil the objective. Every successfull swap is counted as a move.
 Game is considered as won if player manages to fullfil the objective before he runs out of moves. If the moves are finished before fullfiling the objective game is lost.
 
 If player wins the game 'You won' popup is shown with "Play Again" button on it.
@@ -49,7 +49,6 @@ There are power ups in game.
 If player match is 4 size or longer than horizontal or  vertical "Line Bomb" boosters are generated.
 
 ![alt text](https://github.com/plexonic/Match3Test/blob/master/Resources/horizontal_4_match.jpg)
-
 ![alt text](https://github.com/plexonic/Match3Test/blob/master/Resources/vertical_4_match.jpg)
 
 Line Bomb clears whole row or column depending on its type.
